@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+
+
+.icon{
+    color: red;
+    font-size: 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.block{
+    width: auto;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
